@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+
+}
+
+.navbar{
+    height: auto;
+    width: 100%;
+    background: linear-gradient(to right,#141414,#000000);
+    color: white;
+}
+
+
+.art{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box0{
+    background-image: url("https://s3.amazonaws.com/skinner-production/story_images/files/000/012/319/large/1*AqgiEUxw0HqgO4Pvm-4M8Q.jpeg?1504565412");
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+
+
+.box2 .list {
+    display: flex;
+    list-style: none;
+}
+
+.list li a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+
+.list li a:hover{
+    text-decoration: underline;
+    text-decoration-color:#DD0707 ;
+    transition: all 3s;
+}
+
+.box3{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.box3 i:hover{
+    color: #DD0707;
+}
+
+@media screen and (max-width:800px) {
+    .art{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+.hero{
+    animation: ani 0.1s ease 1s infinite;
+}
+
+@keyframes ani {
+    from{
+        background-image: url("https://www.google.com/imgres?q=cars&imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FRtYk-ixyWuM%2Fhqdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DRtYk-ixyWuM&docid=iOYTu50IzjTJYM&tbnid=cj3r45Ff08_aTM&vet=12ahUKEwiqhZ6ypaSKAxXXfPUHHR8vJZAQM3oECFsQAA..i&w=480&h=360&hcb=2&ved=2ahUKEwiqhZ6ypaSKAxXXfPUHHR8vJZAQM3oECFsQAA");
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    } 
+     to{
+        background: url("./Img/bg-light.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+}
+
+.p1{
+    font-size: 50px;
+    color: white;
+    font-weight: 900;
+    padding-top: 50px;
+}
+
+
+
+.h12{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+
+.h13{
+    font-size: 50px;
+    color: #DD0707;
+    font-weight: 900;
+}
+
+.p2{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+.btn1{
+    padding: 10px;
+    background: #DD0707;
+    border: 1px solid transparent;
+    width: 200px;
+    border-radius: 20px;
+    font-weight: 900;
+    color: white;
+    margin-top: 10px;
+}
+
+.btn1:hover{
+    background: transparent;
+    border: 1px solid #DD0707;
+}
