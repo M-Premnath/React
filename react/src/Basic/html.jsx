@@ -6,7 +6,7 @@
        <nav className="navbar">
        <article className="art">
         <div className="box1">
-            <img src="https://www.google.com/imgres?q=car%20logos&imgurl=https%3A%2F%2Fsummitsoft.com%2Fwp-content%2Fuploads%2F2016%2F07%2FBentley-logo.jpg&imgrefurl=https%3A%2F%2Fsummitsoft.com%2Fslideshow-top-luxury-car-logos%2F&docid=5U4jdP9Tp4Gf6M&tbnid=cfgbykSF5k7J-M&vet=12ahUKEwjvgoT-oqSKAxW-e_UHHeWWEqoQM3oECHIQAA..i&w=620&h=400&hcb=2&ved=2ahUKEwjvgoT-oqSKAxW-e_UHHeWWEqoQM3oECHIQAA" alt="logo" />
+            {/* <img src="https://summitsoft.com/wp-content/uploads/2016/07/Bentley-logo.jpg" alt="logo" /> */}
         </div>
        
         <div className="box2">

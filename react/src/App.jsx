@@ -1,8 +1,10 @@
-import Basic from "./Basic/html";
+// import Basic from "./Basic/html";
+import ProfileCard from "./Profile-card/card";
 function App() {
   return (
     <div>
-      <Basic />
+      {/* <Basic /> */}
+      <ProfileCard />
     </div>
   );
 }
