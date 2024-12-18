@@ -18,7 +18,7 @@ const Card = () => {
         </div>
 
         <div className="p">
-          <h3>Name</h3>
+          <h3>Bella</h3>
           <p>Designer & Developer</p>
         </div>
 
