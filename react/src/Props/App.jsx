@@ -1,5 +1,5 @@
 //clone file 
-import React from 'react'
+// import React from 'react'
 import Child from './Props/Child'
 const App = () => {
  const data1 ="Premnath";
