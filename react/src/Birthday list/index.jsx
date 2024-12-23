@@ -3,12 +3,12 @@ import './list.css';
 
 const Birthday = () => {
   const [data, setdata] = useState([
-    { name: "Sham roy", age: 29, img: "../Birthday list/Assets/person1.png" },
-    { name: "Raj sheaker", age: 32, img: "https://placehold.co/600x400@2x.png" },
-    { name: "Emma watson", age: 36, img: "https://placehold.co/600x400@2x.png" },
-    { name: "Sipla shetty", age: 34, img: "https://placehold.co/600x400@2x.png" },
-    { name: "Manoj Kumar", age: 29, img: "https://placehold.co/600x400@2x.png" },
-    { name: "Nithish Kumar", age: 26, img: "https://placehold.co/600x400@2x.png" }
+    { name: "Sham roy", age: 29, img: "https://cdn.pixabay.com/photo/2021/04/07/17/01/woman-6159648_640.jpg" },
+    { name: "Raj sheaker", age: 32, img: "https://cdn.pixabay.com/photo/2024/02/02/04/20/men-8547227_640.png" },
+    { name: "Emma watson", age: 36, img: "https://cdn.pixabay.com/photo/2021/02/22/16/34/portrait-6040876_1280.jpg" },
+    { name: "Sipla shetty", age: 34, img: "https://cdn.pixabay.com/photo/2023/05/27/11/00/ai-generated-8021270_1280.jpg" },
+    { name: "Manoj Kumar", age: 29, img: "https://cdn.pixabay.com/photo/2024/07/05/07/40/woman-8874102_960_720.jpg" },
+    { name: "Nithish Kumar", age: 26, img: "https://cdn.pixabay.com/photo/2024/01/20/12/12/ai-generated-8520972_960_720.png" }
   ]);
 
   return (
