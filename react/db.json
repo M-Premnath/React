@@ -1,0 +1,16 @@
+{
+    "employee": [
+        {
+            "eName": "John",
+            "eMail": "john@example.com",
+            "ePlace": "banglore",
+            "eAge": 30
+        },
+        {
+            "eName": "Jane",
+            "eMail": "jane@example.com",
+            "ePlace": "pune",
+            "eAge": 25
+        }
+    ]
+}
