@@ -1,16 +1,14 @@
 {
-    "employee": [
-        {
-            "eName": "John",
-            "eMail": "john@example.com",
-            "ePlace": "banglore",
-            "eAge": 30
-        },
-        {
-            "eName": "Jane",
-            "eMail": "jane@example.com",
-            "ePlace": "pune",
-            "eAge": 25
-        }
-    ]
+  "users": [
+    {
+      "id": "a725",
+      "name": "Hari",
+      "email": "Hari@gmail.com"
+    },
+    {
+      "id": "efbd",
+      "name": "bob",
+      "email": "bob@gmail.com"
+    }
+  ]
 }
